@@ -8,6 +8,7 @@ const repoName = "green-growers-grid";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: `/${green-growers-grid}/`,
   server: {
     host: "::",
     port: 8080,
