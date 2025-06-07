@@ -1,9 +1,6 @@
-
 import { Phone, Mail } from "lucide-react";
-
 const Header = () => {
-  return (
-    <header className="bg-green-800 text-white shadow-lg">
+  return <header className="bg-green-800 text-white shadow-lg">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -11,7 +8,7 @@ const Header = () => {
               <span className="text-xl font-bold">🌱</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold">Green Valley Farm</h1>
+              <h1 className="text-2xl font-bold">Green Farm</h1>
               <p className="text-green-200 text-sm">Fresh • Local • Organic</p>
             </div>
           </div>
@@ -31,8 +28,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
